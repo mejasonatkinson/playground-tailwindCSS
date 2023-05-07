@@ -114,4 +114,62 @@ module.exports = {
 
 ## [Tailwind Just in Time Tutorial #4 - Arbitrary Values - The Net Ninja](https://www.youtube.com/watch?v=4gEH1h5C-Tc&list=PL4cUxeGkcC9ht1OMQPhBVKAb2dVLhg-MJ&index=5)
 
+Arbitrary Values for colour, font-size or using css variables to set arbitrary values.
+
+```
+:root {
+    --primary: #1eccac;
+    --leadFont: 1.2rem;
+}
+```
+
+```
+<div class="p-8">
+    <button class="bg-[#f46225] text-[#ffff6ca] p-2 rounded">click me</button>
+    <p class="text-[24px] mb-4">Cras rhoncus diam eget ipsum facilisis, vel lacinia arcu ullamcorper. Pellentesque eros nibh, pharetra quis nunc sed, ornare pretium enim. Etiam a auctor tellus.Quisque imperdiet mi nec purus faucibus ultricies. Donec ipsum ligula, pretium quis bibendum nec, volutpat id felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec nec varius risus. Etiam molestie vitae ante quis venenatis. Etiam hendrerit velit nec turpis porttitor aliquam.</p>
+</div>
+
+<div class="p-8">
+    <button class="bg-[color:var(--primary)] text-white p-2 rounded">click me</button>
+    <p class="text-[length:var(--leadFont)] mb-4">Cras rhoncus diam eget ipsum facilisis, vel lacinia arcu ullamcorper. Pellentesque eros nibh, pharetra quis nunc sed, ornare pretium enim. Etiam a auctor tellus.Quisque imperdiet mi nec purus faucibus ultricies. Donec ipsum ligula, pretium quis bibendum nec, volutpat id felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec nec varius risus. Etiam molestie vitae ante quis venenatis. Etiam hendrerit velit nec turpis porttitor aliquam.</p>
+</div>
+```
+
 ## [Tailwind Just in Time Tutorial #5 - Tailwind JIT with Next.js - The Net Ninja](https://www.youtube.com/watch?v=D3Kz2bOQR5E&list=PL4cUxeGkcC9ht1OMQPhBVKAb2dVLhg-MJ&index=6)
+
+`npx create-next-app -e with-tailwindcss jit-next`
+
+`cd jit-next`
+
+`code .`
+
+Used as a postCSS plugin. `postcss.config.js`
+Already setup to use jit. `tailwind.config.js`
+
+`npm run dev`
+
+`pages/index.js`
+
+`classNaame="first-letter:text-[#40d860]"`
+
+Remove the `mode` in `tailwind.config.js` this will prevent this from working.
+
+`styles`
+
+`styles/styles.css`
+
+```
+@tailwind base;
+@tailwind @components;
+@tailwind utilities;
+
+.test {
+    background: #ccc;
+}
+```
+
+`pages/_app.js`
+
+```
+import '../styles/styles.css'
+```
