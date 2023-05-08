@@ -8,7 +8,7 @@ A place to learn more about the Tailwind CSS, and try things.
 
 - [x] [Tailwind Just in Time Tutorial - The Net Ninja](notes/tailwind-just-in-time-tutorial--the-net-ninja.md)
 
-- [ ] [Weather App Build (with Vue 3 & Tailwind CSS) - The Net Ninja]()
+- [ ] [Weather App Build (with Vue 3 & Tailwind CSS) - The Net Ninja](notes/weather-app-build-with-vue-3-and-tailwind-css--the-net-ninja.md)
 
 ## Resources
 
