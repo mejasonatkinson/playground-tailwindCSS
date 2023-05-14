@@ -8,7 +8,7 @@ A place to learn more about the Tailwind CSS, and try things.
 
 - [x] [Tailwind Just in Time Tutorial - The Net Ninja](notes/tailwind-just-in-time-tutorial--the-net-ninja.md)
 
-- [ ] [Weather App Build (with Vue 3 & Tailwind CSS) - The Net Ninja](notes/weather-app-build-with-vue-3-and-tailwind-css--the-net-ninja.md)
+- [x] [Weather App Build (with Vue 3 & Tailwind CSS) - The Net Ninja](notes/weather-app-build-with-vue-3-and-tailwind-css--the-net-ninja.md)
 
 ## Resources
 
@@ -16,7 +16,7 @@ A place to learn more about the Tailwind CSS, and try things.
 
 - [x] [Tailwind Just in Time Tutorial - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ht1OMQPhBVKAb2dVLhg-MJ)
 
-- [ ] [Weather App Build (with Vue 3 & Tailwind CSS) - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ)
+- [x] [Weather App Build (with Vue 3 & Tailwind CSS) - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ)
 
 <!-- - [ ] [Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar - Fireship](https://www.youtube.com/watch?v=pfaSUYaSgRo) -->
 
