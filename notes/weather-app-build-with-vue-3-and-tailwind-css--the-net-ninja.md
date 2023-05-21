@@ -1,6 +1,6 @@
-[Weather App Build (with Vue 3 & Tailwind CSS) - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ)
+# [Weather App Build (with Vue 3 & Tailwind CSS) - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ)
 
-[Weather App Build (Vue 3 & Tailwind) #1 - Introduction - The Net Ninja](https://www.youtube.com/watch?v=gUsBaB5ViAo&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=1)
+## [Weather App Build (Vue 3 & Tailwind) #1 - Introduction - The Net Ninja](https://www.youtube.com/watch?v=gUsBaB5ViAo&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=1)
 
 with/by John Komarnicki
 
@@ -54,7 +54,7 @@ import { RouterView } from "vue-router"
 
 ```
 
-[Weather App Build (Vue 3 & Tailwind) #2 - Tailwind Setup - The Net Ninja](https://www.youtube.com/watch?v=TsQVdEekvtE&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=3)
+## [Weather App Build (Vue 3 & Tailwind) #2 - Tailwind Setup - The Net Ninja](https://www.youtube.com/watch?v=TsQVdEekvtE&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=3)
 
 `npm install -D tailwindcss postcss autoprefixer`
 `npx tailwindcss init -p`
@@ -120,7 +120,7 @@ import "./assets/tailwind.css";
 </html>
 ```
 
-[Weather App Build (Vue 3 & Tailwind) #3 - Navigation - The Net Ninja](https://www.youtube.com/watch?v=AoIn_xiol78&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=4)
+## [Weather App Build (Vue 3 & Tailwind) #3 - Navigation - The Net Ninja](https://www.youtube.com/watch?v=AoIn_xiol78&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=4)
 
 https://cdnjs.com/, font-awesome
 
@@ -185,7 +185,7 @@ import SiteNaigation from "./components/SiteNavigation.vue"
 <style lang="scss" scoped></style>
 ```
 
-[Weather App Build (Vue 3 & Tailwind) #4 - Reusable Modal - The Net Ninja](https://www.youtube.com/watch?v=NilffTjcDVA&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=5)
+## [Weather App Build (Vue 3 & Tailwind) #4 - Reusable Modal - The Net Ninja](https://www.youtube.com/watch?v=NilffTjcDVA&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=5)
 
 `src/components/BaseModal.vue`
 
@@ -281,7 +281,7 @@ const toggleModal = () => {
 
 Check out the CSS-Based Transitions Vue.js documentation.
 
-[Weather App Build (Vue 3 & Tailwind) #5 - City Search - The Net Ninja](https://www.youtube.com/watch?v=5pTzHoliXUQ&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=6)
+## [Weather App Build (Vue 3 & Tailwind) #5 - City Search - The Net Ninja](https://www.youtube.com/watch?v=5pTzHoliXUQ&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=6)
 
 `src/views/HomeView.vue`
 
@@ -337,7 +337,7 @@ https://www.mapbox.com/
 Create Account... Have to give them your card details...
 Documentation > Search > Search API > Geocoding API
 
-[Weather App Build (Vue 3 & Tailwind) #6 - Handling API Errors - The Net Ninja](https://www.youtube.com/watch?v=KvPYw-OyMZA&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=7)
+## [Weather App Build (Vue 3 & Tailwind) #6 - Handling API Errors - The Net Ninja](https://www.youtube.com/watch?v=KvPYw-OyMZA&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=7)
 
 `src/views/HomeView.vue`
 
@@ -402,8 +402,7 @@ const getSearchResults = () => {
 </script>
 ```
 
-[Weather App Build (Vue 3 & Tailwind) #7 - Redirect Route - The Net Ninja](https://www.youtube.com/watch?v=7l6he407PhY&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=8)
-
+## [Weather App Build (Vue 3 & Tailwind) #7 - Redirect Route - The Net Ninja](https://www.youtube.com/watch?v=7l6he407PhY&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=8)
 
 `src/views/CityView.vue`
 
@@ -524,7 +523,7 @@ const getSearchResults = () => {
 </script>
 ```
 
-[Weather App Build (Vue 3 & Tailwind) #8 - Handling Async Data - The Net Ninja](https://www.youtube.com/watch?v=M66Vo8P7WSw&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=9)
+## [Weather App Build (Vue 3 & Tailwind) #8 - Handling Async Data - The Net Ninja](https://www.youtube.com/watch?v=M66Vo8P7WSw&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=9)
 
 `src/views/CityView.vue`
 
@@ -587,7 +586,7 @@ Create Account...
 My API Keys > Create/Name/Generate
 One Call API 1.0
 
-[Weather App Build (Vue 3 & Tailwind) #9 - City View Layout - The Net Ninja](https://www.youtube.com/watch?v=_p-gU3alR0M&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=10)
+## [Weather App Build (Vue 3 & Tailwind) #9 - City View Layout - The Net Ninja](https://www.youtube.com/watch?v=_p-gU3alR0M&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=10)
 
 
 `src/components/AsyncCityView.vue`
@@ -709,8 +708,7 @@ console.log(weatherData);
 
 Recomend: Vue.js devtools for chrome.
 
-
-[Weather App Build (Vue 3 & Tailwind) #10 - Adding Cities to Local Storage - The Net Ninja](https://www.youtube.com/watch?v=NLZdCzqpZvw&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=11)
+## [Weather App Build (Vue 3 & Tailwind) #10 - Adding Cities to Local Storage - The Net Ninja](https://www.youtube.com/watch?v=NLZdCzqpZvw&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=11)
 
 `src/components/SiteNavigation.vue`
 
@@ -789,7 +787,7 @@ const toggleModal = () => {
 
 `npm i uid`
 
-[Weather App Build (Vue 3 & Tailwind) #11 - Retrieve Data from Local Storage - The Net Ninja](https://www.youtube.com/watch?v=Dr0r9TitMS8&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=12)
+## [Weather App Build (Vue 3 & Tailwind) #11 - Retrieve Data from Local Storage - The Net Ninja](https://www.youtube.com/watch?v=Dr0r9TitMS8&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=12)
 
 `src/components/CityList.vue`
 
@@ -977,7 +975,7 @@ defineProps({
 </script>
 ```
 
-[Weather App Build (Vue 3 & Tailwind) #12 - Removing Cities - The Net Ninja](https://www.youtube.com/watch?v=l31_fyp-AwQ&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=13)
+## [Weather App Build (Vue 3 & Tailwind) #12 - Removing Cities - The Net Ninja](https://www.youtube.com/watch?v=l31_fyp-AwQ&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=13)
 
 
 `src/components/AsyncCityView.vue`
@@ -1238,7 +1236,7 @@ const toggleModal = () => {
 <style lang="scss" scoped></style>
 ```
 
-[Weather App Build (Vue 3 & Tailwind) #13 - Animated Skeleton Placeholders - The Net Ninja](https://www.youtube.com/watch?v=8qqCLeArGgc&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=14)
+## [Weather App Build (Vue 3 & Tailwind) #13 - Animated Skeleton Placeholders - The Net Ninja](https://www.youtube.com/watch?v=8qqCLeArGgc&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=14)
 
 `src/components/AnimatedPlaceholder.vue`
 
@@ -1459,7 +1457,7 @@ const removeCity = () => {
 </script>
 ```
 
-[Weather App Build (Vue 3 & Tailwind) #14 - Route Transitions - The Net Ninja](https://www.youtube.com/watch?v=jsvWGacIfSc&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=15)
+## [Weather App Build (Vue 3 & Tailwind) #14 - Route Transitions - The Net Ninja](https://www.youtube.com/watch?v=jsvWGacIfSc&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=15)
 
 `src/App.vue`
 
@@ -1533,7 +1531,7 @@ router.beforeEach((to, from, next) => {
 ...
 ```
 
-[Weather App Build (Vue 3 & Tailwind) #15 - Deploying to Netlify - The Net Ninja](https://www.youtube.com/watch?v=i6QTDMNG0c4&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=16)
+## [Weather App Build (Vue 3 & Tailwind) #15 - Deploying to Netlify - The Net Ninja](https://www.youtube.com/watch?v=i6QTDMNG0c4&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=16)
 
 
 Create GitHub Repo...
