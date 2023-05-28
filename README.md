@@ -13,6 +13,7 @@ A place to learn more about the Tailwind CSS, and try things.
 
 - [ ] [Travel Landing Page](projects/travel-landing-page/)
 - [ ] [Online Food Ordering Landing Page](projects/online-food-ordering-landing-page/)
+- [ ] [TickTick](projects/ticktick/)
 
 ## Resources
 
