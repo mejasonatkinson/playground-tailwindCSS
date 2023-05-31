@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Responsive Web Design</title>
+    <!-- Based on: https://www.figma.com/community/file/1240623762426636175 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    backgroundImage: {
+                        'hero': "url('img/1-travel-news.png')",
+                        'photograph-1': "url('img/5-photograph.png')",
+                        'photograph-2': "url('img/6-photograph.png')",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+ <header class="relative">
+    <div class="w-8 h-8 absolute top-3 left-4 cursor-pointer md:hidden">
+        <img src="img/menu.png" alt="">
+    </div>
+    <div class="w-8 h-8 absolute top-4 right-4 cursor-pointer md:hidden">
+        <img src="img/profile.png" alt="">
+    </div>
+    <div class="flex justify-center md:justify-between items-center py-2 px-2 sm:px-5 md:px-20 xl:px-40 2xl:px-80">
+        <div class="flex justify-center items-center">
+            <img src="img/header-logo.png" alt="Logo" class="pr-3">
+            <img src="img/header-logo-title.png" alt="Logo">
+        </div>
+        <div class="hidden md:block">
+            <nav>
+                <ul class="inline flex items-center p-1 text-base">
+                    <li class="inline p-2">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="inline p-2">
+                        <a href="">Discover</a>
+                    </li>
+                    <li class="inline p-2">
+                        <a href="">Photo</a>
+                    </li>
+                    <li class="inline p-2">
+                        <a href="">Contact</a>
+                    </li>
+                    <li class="inline p-2 pl-6">
+                        <a href="">
+                            <img src="img/profile.png" alt="Profile" class="inline">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+ </header>
+ <main>
+    <div class="bg-black bg-hero bg-cover bg-center">
+        <div class="xl:grid xl:grid-cols-5 xl:gap-28 py-16 px-2 sm:px-5 md:px-20 xl:px-40 2xl:px-80">
+            <div class="xl:col-span-3 text-white">
+                <h2 class="uppercase text-6xl px-2 sm:px-5 md:px-16 pt-12 pb-4">Travel News</h2>
+                <hr>
+                <p class="text-base px-2 sm:px-5 md:px-16 pt-4 pb-8">Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum. Quisque varius sit elit placerat nulla ullamcorper eget. Lobortis semper nec augue sed aliquam. In eget mattis dui arcu mauris blandit. Elementum neque magna vestibulum amet sagittis vel.</p>
+                <h3 class="text-4xl px-2 sm:px-5 md:px-16">Get 10% Off on your next travel</h3>
+                <form action="" class="px-2 sm:px-5 md:px-16 py-8">
+                    <input type="text" placeholder="Enter your E-Mail" class="w-full md:w-64 mr-6 mb-8 bg-transparent placeholder-white border-2 border-white px-4 py-2 rounded-3xl">
+                    <button class="w-full md:w-auto bg-orange-500 px-12 py-2 rounded-3xl uppercase border-2 border-white">Subscribe</button>
+                </form>
+            </div>
+            <div class="xl:col-span-2 bg-white py-10 px-12 hidden xl:block">
+                <div>
+                    <div class="mb-2 flex justify-between">
+                        <h3 class="uppercase font-bold text-4xl">More News</h3>
+                        <nav>
+                            <a href=""><img src="img/back.png" alt="back" class="inline mr-3"></a>
+                            <a href=""><img src="img/forward.png" alt="forward" class="inline"></a>
+                        </nav>
+                    </div>
+                    <hr class="mb-6 h-1 bg-black">
+                    <div>
+                        <h4 class="uppercase font-bold text-orange-500 my-2 text-lg">Travel News</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum.</p>
+                    </div>
+                    <div>
+                        <h4 class="uppercase font-bold text-orange-500 my-2 text-lg">Travel News</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-16 px-2 sm:px-5 md:px-20 xl:px-40 2xl:px-80">
+        <h3 class="uppercase font-bold text-4xl mb-16">Discovery</h3>
+        <div>
+            <div class="grid grid-cols-2 xl:grid-cols-3 gap-8">
+                <div class="border-2 border-black">
+                    <div>
+                        <img src="img/2-discovery.png" alt="" class="w-full">
+                    </div>
+                    <div class="p-10">
+                        <h4 class="font-bold text-lg">Lorem ipsum dolor</h4>
+                        <p>sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum.</p>
+                        <div class="flex items-center pt-2">
+                            <img src="img/time.png" alt="Time" class="inline mr-2"> 2 day ago
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 border-black">
+                    <div>
+                        <img src="img/3-discovery.png" alt="" class="w-full">
+                    </div>
+                    <div class="p-10">
+                        <h4 class="font-bold text-lg">Lorem ipsum dolor</h4>
+                        <p>sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum.</p>
+                        <div class="flex items-center pt-2">
+                            <img src="img/time.png" alt="Time" class="inline mr-2"> 2 day ago
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 border-black hidden xl:block">
+                    <div>
+                        <img src="img/4-discovery.png" alt="" class="w-full">
+                    </div>
+                    <div class="p-10">
+                        <h4 class="font-bold text-lg">Lorem ipsum dolor</h4>
+                        <p>sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum.</p>
+                        <div class="flex items-center pt-2">
+                            <img src="img/time.png" alt="Time" class="inline mr-2"> 2 day ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 class="uppercase font-bold text-4xl my-16">Photograph</h3>
+            <div class="grid grid-cols-2 xl:grid-cols-3 gap-8">
+                <div class="col-span-2 relative text-white">
+                    <div class="bg-photograph-1 bg-cover bg-center relative h-96 mb-8 xl:mb-0">
+                        <div class="absolute inset-x-0 bottom-0 py-10 px-20">
+                            <h4 class="uppercase font-semibold text-4xl mb-4">Happening Now.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum.</p>
+                        </div>
+                    </div>
+                    <div class="bg-photograph-2 bg-cover bg-center xl:absolute xl:inset-x-0 xl:bottom-0 h-96">
+                        <div class="absolute inset-x-0 bottom-0 py-10 px-20">
+                            <h4 class="uppercase font-semibold text-4xl mb-4">Happening Now.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-2 grid grid-cols-2 gap-8 xl:col-span-1 xl:block">
+                    <div class="border-2 border-black mb-8">
+                        <div>
+                            <img src="img/7-photograph.png" alt="" class="w-full">
+                        </div>
+                        <div class="p-10">
+                            <h4 class="font-bold text-lg">Lorem ipsum dolor</h4>
+                            <p>sit amet consectetur. Lectus diam turpis condimentum convallis in.</p>
+                            <div class="flex items-center pt-2">
+                                <img src="img/time.png" alt="Time" class="inline mr-2"> 2 day ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black mb-8">
+                        <div>
+                            <img src="img/8-photograph.png" alt="" class="w-full">
+                        </div>
+                        <div class="p-10">
+                            <h4 class="font-bold text-lg">Lorem ipsum dolor</h4>
+                            <p>sit amet consectetur. Lectus diam turpis condimentum convallis in.</p>
+                            <div class="flex items-center pt-2">
+                                <img src="img/time.png" alt="Time" class="inline mr-2"> 2 day ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black hidden xl:block">
+                        <div>
+                            <img src="img/9-photograph.png" alt="" class="w-full">
+                        </div>
+                        <div class="p-10">
+                            <h4 class="font-bold text-lg">Lorem ipsum dolor</h4>
+                            <p>sit amet consectetur. Lectus diam turpis condimentum convallis in.</p>
+                            <div class="flex items-center pt-2">
+                                <img src="img/time.png" alt="Time" class="inline mr-2"> 2 day ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </main>
+ <footer class="bg-black py-10 px-3">
+    <div class="flex justify-center items-center">
+        <img src="img/footer-logo.png" alt="Logo" class="pr-3">
+        <img src="img/footer-logo-title.png" alt="Logo">
+    </div>
+ </footer>
+</body>
+</html>
