@@ -13,8 +13,10 @@ A place to learn more about the Tailwind CSS, and try things.
 
 - [x] [Travel Landing Page](projects/travel-landing-page/)
 - [x] [Online Food Ordering Landing Page](projects/online-food-ordering-landing-page/)
-- [x] [TickTick](projects/ticktick/)
+- [ ] [TickTick](projects/ticktick/)
 - [ ] [TickTick using Vue](projects/ticktick-vue)
+
+Working on Some CodePens...
 
 ## Resources
 
